@@ -16,7 +16,7 @@ public class FourWins
     gc.putPlayer( cp, false );
     gc.putPlayer( ap, true );
     
-    GameGUI theGUI = new GameGUI(gc,ap);
+    GameGUI theGUI = new GameGUI(gc,ap);//comment
     theBoard.register( theGUI );
     
     ap.putTheGUI(theGUI);
